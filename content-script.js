@@ -78,7 +78,7 @@ var hidden_smile = [{
 	imgUrl: '//s.plurk.com/71acd802cc931649dd9a371ccf70bad2.gif',
 	codeText: '(hungry_okok)'
 }, {
-	imgUrl: '//s.plurk.com/74030f05f06547a3d26b02ccbf0bbac7.gif',
+	imgUrl: '//s.plurk.com/bb1e3fed482959a00013f7f1efcc17a0.gif',
 	codeText: '(music_okok)'
 }, {
 	imgUrl: '//s.plurk.com/bac8c8392f7ca8f5ac74612be4d08b74.gif',
