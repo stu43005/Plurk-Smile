@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Plurk-Smile",
-    "version": "2.10",
+    "version": "3.0",
     "description": "__MSG_extdesc__",
     "icons": {
         "128": "128.png",

@@ -48,171 +48,171 @@ default:
 delete plurk_language;
 
 var hidden_smile = [{
-	imgUrl: 'http://statics.plurk.com/7256dae81d56d150120ccd0c96dd2197.gif',
+	imgUrl: '//s.plurk.com/7256dae81d56d150120ccd0c96dd2197.gif',
 	codeText: '(fireworks)'
 }, {
-	imgUrl: 'http://statics.plurk.com/deda4d9f78ad528d725e3a6bfbf6352f.gif',
+	imgUrl: '//s.plurk.com/deda4d9f78ad528d725e3a6bfbf6352f.gif',
 	codeText: '(Русский)'
 }, {
-	imgUrl: 'http://statics.plurk.com/47d20905d017c396d67b4a30c9ac9b10.png',
+	imgUrl: '//s.plurk.com/47d20905d017c396d67b4a30c9ac9b10.png',
 	codeText: '(goal)'
 }, {
-	imgUrl: 'http://statics.plurk.com/0efc4d55d28704f4370ef874ae906161.gif',
+	imgUrl: '//s.plurk.com/0efc4d55d28704f4370ef874ae906161.gif',
 	codeText: '(code)'
 }, {
-	imgUrl: 'http://statics.plurk.com/4ad099fba019942f13058610ff3fc568.gif',
+	imgUrl: '//s.plurk.com/4ad099fba019942f13058610ff3fc568.gif',
 	codeText: '(dance_bzz)'
 }, {
-	imgUrl: 'http://statics.plurk.com/5a2a63fa773e68797ec69a1303bfa3b9.png',
+	imgUrl: '//s.plurk.com/5a2a63fa773e68797ec69a1303bfa3b9.png',
 	codeText: '(bzzz)'
 }, {
-	imgUrl: 'http://statics.plurk.com/4c40d16a0d369b895c08f2e33d062ec8.gif',
+	imgUrl: '//s.plurk.com/4c40d16a0d369b895c08f2e33d062ec8.gif',
 	codeText: '(yarr)'
 }, {
-	imgUrl: 'http://statics.plurk.com/3acbaf42504fff32c5eac4f12083ce56.gif',
+	imgUrl: '//s.plurk.com/3acbaf42504fff32c5eac4f12083ce56.gif',
 	codeText: '(yarr_okok)'
 }, {
-	imgUrl: 'http://statics.plurk.com/fcd28d7d78ec1f828c76930fa63270e6.gif',
+	imgUrl: '//s.plurk.com/fcd28d7d78ec1f828c76930fa63270e6.gif',
 	codeText: '(gym_okok)'
 }, {
-	imgUrl: 'http://statics.plurk.com/71acd802cc931649dd9a371ccf70bad2.gif',
+	imgUrl: '//s.plurk.com/71acd802cc931649dd9a371ccf70bad2.gif',
 	codeText: '(hungry_okok)'
 }, {
-	imgUrl: 'http://statics.plurk.com/74030f05f06547a3d26b02ccbf0bbac7.gif',
+	imgUrl: '//s.plurk.com/74030f05f06547a3d26b02ccbf0bbac7.gif',
 	codeText: '(music_okok)'
 }, {
-	imgUrl: 'http://statics.plurk.com/bac8c8392f7ca8f5ac74612be4d08b74.gif',
+	imgUrl: '//s.plurk.com/bac8c8392f7ca8f5ac74612be4d08b74.gif',
 	codeText: '(wave_okok)'
 }, {
-	imgUrl: 'http://statics.plurk.com/a555399b40c379adca5b6f5bad5bf732.gif',
+	imgUrl: '//s.plurk.com/a555399b40c379adca5b6f5bad5bf732.gif',
 	codeText: '(dance_okok)'
 }, {
-	imgUrl: 'http://statics.plurk.com/8855f56400a936db07f348d9290adaac.gif',
+	imgUrl: '//s.plurk.com/8855f56400a936db07f348d9290adaac.gif',
 	codeText: '(code_okok)'
 }, {
-	imgUrl: 'http://statics.plurk.com/6675254cd7449b1847a93b0024127eae.gif',
+	imgUrl: '//s.plurk.com/6675254cd7449b1847a93b0024127eae.gif',
 	codeText: '(angry_okok)'
 }, {
-	imgUrl: 'http://statics.plurk.com/5b51892d7d1f392d93ea7fe26e5100f4.gif',
+	imgUrl: '//s.plurk.com/5b51892d7d1f392d93ea7fe26e5100f4.gif',
 	codeText: '(banana_gym)'
 }, {
-	imgUrl: 'http://statics.plurk.com/6de58c967f1c2797d250a713ba50eddd.gif',
+	imgUrl: '//s.plurk.com/6de58c967f1c2797d250a713ba50eddd.gif',
 	codeText: '(dance_yarr)'
 }, {
-	imgUrl: 'http://statics.plurk.com/feb43dbbbf2763905571060be9a496d1.gif',
+	imgUrl: '//s.plurk.com/feb43dbbbf2763905571060be9a496d1.gif',
 	codeText: '(no_dance)'
 }, {
-	imgUrl: 'http://statics.plurk.com/88fac5a4b99110a35d4e4794dad58ab4.gif',
+	imgUrl: '//s.plurk.com/88fac5a4b99110a35d4e4794dad58ab4.gif',
 	codeText: '(taser_okok)'
 }, {
-	imgUrl: 'http://statics.plurk.com/b3b9856e557fcc2700fd41c53f9d4910.gif',
+	imgUrl: '//s.plurk.com/b3b9856e557fcc2700fd41c53f9d4910.gif',
 	codeText: '(droid_dance)'
 }, {
-	imgUrl: 'http://statics.plurk.com/cfdd2accc1188f5fbc62e149074c7f29.png',
+	imgUrl: '//s.plurk.com/cfdd2accc1188f5fbc62e149074c7f29.png',
 	codeText: '(fuu)'
 }, {
-	imgUrl: 'http://statics.plurk.com/828b9819249db696701ae0987fba3638.png',
+	imgUrl: '//s.plurk.com/828b9819249db696701ae0987fba3638.png',
 	codeText: '(gfuu)'
 }, {
-	imgUrl: 'http://statics.plurk.com/1bd653e166492e40e214ef6ce4dd716f.png',
+	imgUrl: '//s.plurk.com/1bd653e166492e40e214ef6ce4dd716f.png',
 	codeText: '(yay)'
 }, {
-	imgUrl: 'http://statics.plurk.com/3fe6cf919158597d7ec74f8d90f0cc9f.png',
+	imgUrl: '//s.plurk.com/3fe6cf919158597d7ec74f8d90f0cc9f.png',
 	codeText: '(gyay)'
 }, {
-	imgUrl: 'http://statics.plurk.com/9c5c54081547d2ad903648f178fcc595.png',
+	imgUrl: '//s.plurk.com/9c5c54081547d2ad903648f178fcc595.png',
 	codeText: '(bah)'
 }, {
-	imgUrl: 'http://statics.plurk.com/2da76999ca3716fb4053f3332270e5c9.png',
+	imgUrl: '//s.plurk.com/2da76999ca3716fb4053f3332270e5c9.png',
 	codeText: '(gbah)'
 }, {
-	imgUrl: 'http://statics.plurk.com/f73b773aa689647cb09f57f67a83bb89.png',
+	imgUrl: '//s.plurk.com/f73b773aa689647cb09f57f67a83bb89.png',
 	codeText: '(troll)'
 }, {
-	imgUrl: 'http://statics.plurk.com/45beda260eddc28c82c0d27377e7bf42.png',
+	imgUrl: '//s.plurk.com/45beda260eddc28c82c0d27377e7bf42.png',
 	codeText: '(gtroll)'
 }, {
-	imgUrl: 'http://statics.plurk.com/8590888362ae83daed52e4ca73c296a6.png',
+	imgUrl: '//s.plurk.com/8590888362ae83daed52e4ca73c296a6.png',
 	codeText: '(aha)'
 }, {
-	imgUrl: 'http://statics.plurk.com/c7551098438cc28ec3b54281d4b09cc3.png',
+	imgUrl: '//s.plurk.com/c7551098438cc28ec3b54281d4b09cc3.png',
 	codeText: '(gaha)'
 }, {
-	imgUrl: 'http://statics.plurk.com/cfd84315ebceec0c4389c51cf69132bd.png',
+	imgUrl: '//s.plurk.com/cfd84315ebceec0c4389c51cf69132bd.png',
 	codeText: '(whatever)'
 }, {
-	imgUrl: 'http://statics.plurk.com/0e0bf1ec2c2958799666f3995ef830ca.png',
+	imgUrl: '//s.plurk.com/0e0bf1ec2c2958799666f3995ef830ca.png',
 	codeText: '(gwhatever)'
 }, {
-	imgUrl: 'http://statics.plurk.com/e2998ca75f80c1c4a5508c549e3980a6.png',
+	imgUrl: '//s.plurk.com/e2998ca75f80c1c4a5508c549e3980a6.png',
 	codeText: '(pokerface)'
 }, {
-	imgUrl: 'http://statics.plurk.com/c6ad1c4f9e11f6859a1ba39c4341ef8b.png',
+	imgUrl: '//s.plurk.com/c6ad1c4f9e11f6859a1ba39c4341ef8b.png',
 	codeText: '(gpokerface)'
 }, {
-	imgUrl: 'http://statics.plurk.com/4a61085f1c6a639f028cd48ae97d07d0.png',
+	imgUrl: '//s.plurk.com/4a61085f1c6a639f028cd48ae97d07d0.png',
 	codeText: '(yea)'
 }, {
-	imgUrl: 'http://statics.plurk.com/53253ca60f5831f0812954213a2e9bb3.png',
+	imgUrl: '//s.plurk.com/53253ca60f5831f0812954213a2e9bb3.png',
 	codeText: '(gyea)'
 }, {
-	imgUrl: 'http://statics.plurk.com/6928f3117658cc38d94e70519a511005.png',
+	imgUrl: '//s.plurk.com/6928f3117658cc38d94e70519a511005.png',
 	codeText: '(jazzhands)'
 }, {
-	imgUrl: 'http://statics.plurk.com/af44689f789b98cfcb103844f7fbfce8.png',
+	imgUrl: '//s.plurk.com/af44689f789b98cfcb103844f7fbfce8.png',
 	codeText: '(flower)',
 	minkarma: 50
 }, ];
 var festival_smile = [{
 	text: xmas_text
 }, {
-	imgUrl: 'http://statics.plurk.com/1a5f23ed863e70e52f239b045a48e6fb.gif',
+	imgUrl: '//s.plurk.com/1a5f23ed863e70e52f239b045a48e6fb.gif',
 	codeText: '(xmas1)'
 }, {
-	imgUrl: 'http://statics.plurk.com/f5dbd5fdf5f5df69cfb024d6be76a76b.gif',
+	imgUrl: '//s.plurk.com/f5dbd5fdf5f5df69cfb024d6be76a76b.gif',
 	codeText: '(xmas2)'
 }, {
-	imgUrl: 'http://statics.plurk.com/e902170e97aee14836b5df6b0fe61ba2.gif',
+	imgUrl: '//s.plurk.com/e902170e97aee14836b5df6b0fe61ba2.gif',
 	codeText: '(xmas3)'
 }, {
-	imgUrl: 'http://statics.plurk.com/e476574723d5042f24658fa36866bd92.gif',
+	imgUrl: '//s.plurk.com/e476574723d5042f24658fa36866bd92.gif',
 	codeText: '(xmas4)'
 }, {
 	text: valentine_text
 }, {
-	imgUrl: 'http://statics.plurk.com/dd8468c4e7af6c57e3b176a8c984fc7d.png',
+	imgUrl: '//s.plurk.com/dd8468c4e7af6c57e3b176a8c984fc7d.png',
 	codeText: '(v_love)'
 }, {
-	imgUrl: 'http://statics.plurk.com/fe2398c09a67a416f16353af91283bd0.png',
+	imgUrl: '//s.plurk.com/fe2398c09a67a416f16353af91283bd0.png',
 	codeText: '(v_tiffany)'
 }, {
-	imgUrl: 'http://statics.plurk.com/3d38ab77e8df38579df2403d382d63dd.png',
+	imgUrl: '//s.plurk.com/3d38ab77e8df38579df2403d382d63dd.png',
 	codeText: '(v_mail)'
 }, {
-	imgUrl: 'http://statics.plurk.com/7f42645feb6ceed6e35637eaf418306c.png',
+	imgUrl: '//s.plurk.com/7f42645feb6ceed6e35637eaf418306c.png',
 	codeText: '(v_perfume)'
 }, {
-	imgUrl: 'http://statics.plurk.com/2678bdb36b318b038a3a1a9e7fdb2220.png',
+	imgUrl: '//s.plurk.com/2678bdb36b318b038a3a1a9e7fdb2220.png',
 	codeText: '(v_shy)'
 }, {
 	text: lantern_text
 }, {
-	imgUrl: 'http://statics.plurk.com/2b4c6198cd357b90566fa368f6804032.png',
+	imgUrl: '//s.plurk.com/2b4c6198cd357b90566fa368f6804032.png',
 	codeText: '(lantern_love)'
 }, {
-	imgUrl: 'http://statics.plurk.com/be11685ed0ee1740a4eb0f82edd004e8.png',
+	imgUrl: '//s.plurk.com/be11685ed0ee1740a4eb0f82edd004e8.png',
 	codeText: '(lantern_well)'
 }, {
-	imgUrl: 'http://statics.plurk.com/71ad7d11b6e857794a75e5098b2e9cd3.png',
+	imgUrl: '//s.plurk.com/71ad7d11b6e857794a75e5098b2e9cd3.png',
 	codeText: '(lantern_fortune)'
 }, {
-	imgUrl: 'http://statics.plurk.com/ae169c0471106ef466013a0ff790dd03.png',
+	imgUrl: '//s.plurk.com/ae169c0471106ef466013a0ff790dd03.png',
 	codeText: '(lantern_happy)'
 }, {
-	imgUrl: 'http://statics.plurk.com/286b8ffcae6d8432036b442d709cb852.png',
+	imgUrl: '//s.plurk.com/286b8ffcae6d8432036b442d709cb852.png',
 	codeText: '(lantern_peace)'
 }, {
-	imgUrl: 'http://statics.plurk.com/6883243bb1b5f01e22be8dae5d836667.png',
+	imgUrl: '//s.plurk.com/6883243bb1b5f01e22be8dae5d836667.png',
 	codeText: '(lantern_health)'
 }, ];
 
@@ -239,7 +239,7 @@ function click_smile() {
 	lastInputFocused.focus();
 	var pos = lastInputFocused.value.length;
 	lastInputFocused.setSelectionRange(pos, pos);
-	if (location.href.match(/http:\/\/www.plurk.com\/(\w+)/)[1] == "p") appendscript("Emoticons.forceHide();");
+	if (location.href.match(/\/\/www.plurk.com\/(\w+)/)[1] == "p") appendscript("Emoticons.forceHide();");
 	else appendscript("Emoticons.forceHide();window.scrollTo(0,0);");
 	return false;
 }
