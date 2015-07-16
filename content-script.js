@@ -8,14 +8,14 @@ switch (plurk_language) {
 	case "zh_Hant":
 	case "zh_Hant_HK":
 		hidden_smile_text = "隱藏表情";
-		festival_smile_text = "節慶限定";
+		festival_smile_text = "節慶";
 		xmas_text = "聖誕節";
 		valentine_text = "情人節";
 		lantern_text = "元宵節";
 		break;
 	case "zh_CN":
-		hidden_smile_text = "隐藏";
-		festival_smile_text = "节庆限定";
+		hidden_smile_text = "隐藏表情";
+		festival_smile_text = "节庆";
 		xmas_text = "圣诞节";
 		valentine_text = "情人节";
 		lantern_text = "元宵节";
@@ -45,7 +45,6 @@ default:
 	width_add = 100;
 	break;
 }*/
-delete plurk_language;
 
 var hidden_smile = [{
 	imgUrl: '//s.plurk.com/7256dae81d56d150120ccd0c96dd2197.gif',
@@ -63,7 +62,12 @@ var hidden_smile = [{
 	imgUrl: '//s.plurk.com/4ad099fba019942f13058610ff3fc568.gif',
 	codeText: '(dance_bzz)'
 }, {
-	imgUrl: '//s.plurk.com/5a2a63fa773e68797ec69a1303bfa3b9.png',
+	imgUrl: [
+		'//s.plurk.com/e3481a0219283c49455d8af6012980ea.png',
+		'//s.plurk.com/5a2a63fa773e68797ec69a1303bfa3b9.png',
+		'//s.plurk.com/129b757f2346a6e5ea782c79f0337ba9.png',
+		'//s.plurk.com/7bd4d66256fc805da4dd178b9fdbe3ce.png'
+	],
 	codeText: '(bzzz)'
 }, {
 	imgUrl: '//s.plurk.com/4c40d16a0d369b895c08f2e33d062ec8.gif',
@@ -162,7 +166,26 @@ var hidden_smile = [{
 	imgUrl: '//s.plurk.com/af44689f789b98cfcb103844f7fbfce8.png',
 	codeText: '(flower)',
 	minkarma: 50
-}, ];
+}, {
+	imgUrl: [
+		'//s.plurk.com/4bb238c42f2777cb81f7cda96e93c7ec.png',
+		'//s.plurk.com/b3204efff2b1d44580f045b71fb8eb6c.png',
+		'//s.plurk.com/f60fb06a6d463cc147c0db1387b79010.png',
+		'//s.plurk.com/f5138e54a278eb672f250481b66a3329.png',
+		'//s.plurk.com/eb68c526d01ef743981c64035e0f3b25.png',
+		'//s.plurk.com/e11a2056ff76f0c6c2eca2ad67df5710.png'
+	],
+	codeText: '(dice)'
+}, {
+	imgUrl: [
+		'//s.plurk.com/5b70cbfb6382f1b646f39a3f86d49a1e.png',
+		'//s.plurk.com/2264ba9ec2d27d792020c7e6afde3c38.png',
+		'//s.plurk.com/9fc2d756c29e606fd02dd6acdc875ad9.png',
+		'//s.plurk.com/51e69b868603c74e15d7368605866d08.png',
+		'//s.plurk.com/8bf17cffc06365c74ee6c6fc0e7980d5.png'
+	],
+	codeText: '(bobei)'
+}];
 var festival_smile = [{
 	text: xmas_text
 }, {
@@ -244,6 +267,10 @@ function click_smile() {
 	return false;
 }
 
+function getDefaultImgUrl(imgUrl) {
+	return imgUrl instanceof Array ? imgUrl[0] : imgUrl;
+}
+
 function show_smile_list(sel, smile_list, num, rows) {
 	num = num || 6;
 	rows = rows || 3;
@@ -290,7 +317,7 @@ function show_smile_list(sel, smile_list, num, rows) {
 			var $a = $("<a/>").attr("href", "#").addClass("a_emoticon").addClass("smile_ext_a").attr("title", smile_list[i].codeText).html($font);
 			$html.find("tr:last").append($("<td/>").html($a));
 		} else if (smile_list[i].imgUrl) {
-			var $img = $("<img/>").attr("src", smile_list[i].imgUrl).attr("title", smile_list[i].codeText ? smile_list[i].codeText : smile_list[i].imgUrl);
+			var $img = $("<img/>").attr("src", getDefaultImgUrl(smile_list[i].imgUrl)).attr("title", smile_list[i].codeText ? smile_list[i].codeText : getDefaultImgUrl(smile_list[i].imgUrl));
 			if (smile_list[i].width) $img.css("width", smile_list[i].width + "px");
 			if (smile_list[i].height) $img.css("height", smile_list[i].height + "px");
 			if (smile_list[i].max_width) $img.css("max-width", smile_list[i].max_width + "px").data("max-width", smile_list[i].max_width + "px").hover(function() {
@@ -298,6 +325,19 @@ function show_smile_list(sel, smile_list, num, rows) {
 			}, function() {
 				$(this).css("max-width", $(this).data("max-width"));
 			});
+			if (smile_list[i].imgUrl instanceof Array) {
+				(function($img, imgUrl) {
+					var timer, i = 0;
+					$img.hover(function() {
+						clearInterval(timer);
+						timer = setInterval(function() {
+							$img.attr("src", imgUrl[++i % imgUrl.length]);
+						}, 1000);
+					}, function() {
+						clearInterval(timer);
+					});
+				})($img, smile_list[i].imgUrl);
+			}
 			//var $a = $("<a/>").attr("href", "#").addClass("a_emoticon").addClass("smile_ext_a").attr("title", smile_list[i].codeText ? smile_list[i].codeText : smile_list[i].imgUrl).html($img);
 			$html.find("tr:last").append($("<td/>").addClass("enabled").html($img));
 		}
@@ -376,11 +416,11 @@ function show_smile_tabs() {
 	$("<li/>").attr("id", "hidden_smile").addClass("smile_ext_tabs").click(function() {
 		show_smile_list(this, hidden_smile);
 		return false;
-	}).append($("<a/>").attr("href", "#").html(hidden_smile_text)).appendTo("#emoticons_tabs ul");
+	}).append($("<a/>").attr("href", "#").html($("<img/>").attr("src", "//s.plurk.com/4c40d16a0d369b895c08f2e33d062ec8.gif").attr("title", hidden_smile_text).css("border", "none").css("max-width", 20))).appendTo("#emoticons_tabs ul");
 	$("<li/>").attr("id", "festival_smile").addClass("smile_ext_tabs").click(function() {
 		show_smile_list(this, festival_smile);
 		return false;
-	}).append($("<a/>").attr("href", "#").html(festival_smile_text)).appendTo("#emoticons_tabs ul");
+	}).append($("<a/>").attr("href", "#").html($("<img/>").attr("src", "//s.plurk.com/dd8468c4e7af6c57e3b176a8c984fc7d.png").attr("title", festival_smile_text).css("border", "none").css("max-width", 20))).appendTo("#emoticons_tabs ul");
 	karma = $("#karma").html();
 	console.debug("karma = " + karma);
 	smile_button.die("click", show_smile_tabs);
