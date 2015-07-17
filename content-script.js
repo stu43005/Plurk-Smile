@@ -12,6 +12,7 @@ switch (plurk_language) {
 		xmas_text = "聖誕節";
 		valentine_text = "情人節";
 		lantern_text = "元宵節";
+		chinese_new_year_text = "春節";
 		break;
 	case "zh_CN":
 		hidden_smile_text = "隐藏表情";
@@ -19,6 +20,7 @@ switch (plurk_language) {
 		xmas_text = "圣诞节";
 		valentine_text = "情人节";
 		lantern_text = "元宵节";
+		chinese_new_year_text = "春节";
 		break;
 	default:
 		hidden_smile_text = "Hidden";
@@ -26,6 +28,7 @@ switch (plurk_language) {
 		xmas_text = "Christmas";
 		valentine_text = "Valentine Day";
 		lantern_text = "Lantern Festival";
+		chinese_new_year_text = "Chinese New Year";
 		break;
 }
 /*switch(plurk_language) {
@@ -201,6 +204,39 @@ var festival_smile = [{
 	imgUrl: '//s.plurk.com/e476574723d5042f24658fa36866bd92.gif',
 	codeText: '(xmas4)'
 }, {
+	imgUrl: '//s.plurk.com/1154cc9084e8e6216c95afbb14ac3407.png',
+	codeText: '(xmas5)'
+}, {
+	imgUrl: '//s.plurk.com/6e3211e0869e7a6f9cc8e092549a3841.png',
+	codeText: '(xmas6)'
+}, {
+	imgUrl: '//s.plurk.com/b7b1fb0c2899d32aba72748947285fa6.png',
+	codeText: '(xmas7)'
+}, {
+	imgUrl: '//s.plurk.com/eebe39c5354e546697dffcd192018f5e.png',
+	codeText: '(xmas8)'
+}, {
+	imgUrl: '//s.plurk.com/630f3314db996037c2c17b9e64851cfb.png',
+	codeText: '(xmas9)'
+}, {
+	imgUrl: '//s.plurk.com/719281c0d96f8a5cabc00373656f2152.png',
+	codeText: '(xmas10)'
+}, {
+	imgUrl: '//s.plurk.com/82d66bba0bfffcca77ca40938cb8cc3e.png',
+	codeText: '(xmas11)'
+}, {
+	imgUrl: '//s.plurk.com/82c59922a6a746fbe61b660707d62a30.png',
+	codeText: '(xmas12)'
+}, {
+	imgUrl: '//s.plurk.com/0df4b5eed40d922ee3c228aa1a674523.png',
+	codeText: '(xmas13)'
+}, {
+	imgUrl: '//s.plurk.com/9eeec1c93b3b1576b98e113c0608fc22.png',
+	codeText: '(xmas14)'
+}, {
+	imgUrl: '//s.plurk.com/00afc4c2d66e7ef335f88e7889d3daba.png',
+	codeText: '(xmas15)'
+}, {
 	text: valentine_text
 }, {
 	imgUrl: '//s.plurk.com/dd8468c4e7af6c57e3b176a8c984fc7d.png',
@@ -237,7 +273,45 @@ var festival_smile = [{
 }, {
 	imgUrl: '//s.plurk.com/6883243bb1b5f01e22be8dae5d836667.png',
 	codeText: '(lantern_health)'
-}, ];
+}, {
+	text: chinese_new_year_text
+}, {
+	imgUrl: '//s.plurk.com/8b5e8e97f8fe3112371aa4a97bbfb52d.png',
+	codeText: '(cny1)'
+}, {
+	imgUrl: '//s.plurk.com/2de7deca6fac89b5a17de2115129be5b.png',
+	codeText: '(cny2)'
+}, {
+	imgUrl: '//s.plurk.com/5741ddf0d5ed9bf2eeddb05409cfd90e.png',
+	codeText: '(cny3)'
+}, {
+	imgUrl: '//s.plurk.com/2799f9d318197f4bc58cf30ad782fa8c.png',
+	codeText: '(cny4)'
+}, {
+	imgUrl: '//s.plurk.com/720333375c0266dacf585abe77555560.png',
+	codeText: '(cny5)'
+}, {
+	imgUrl: '//s.plurk.com/8c34d5bbd6853ed8dd66a55c0169f01f.png',
+	codeText: '(cny6)'
+}, {
+	imgUrl: '//s.plurk.com/97b6f19a701e06013399381719d2f0f2.png',
+	codeText: '(cny7)'
+}, {
+	imgUrl: '//s.plurk.com/d5e0e5b699997091daa89344fce8d3aa.png',
+	codeText: '(cny8)'
+}, {
+	imgUrl: '//s.plurk.com/8c44060f959acd85fda2c6310efd281a.png',
+	codeText: '(cny9)'
+}, {
+	imgUrl: '//s.plurk.com/4de1c39079043eff164ab3d41e637209.png',
+	codeText: '(cny10)'
+}, {
+	imgUrl: '//s.plurk.com/453e59882e8bfff71f1ead624a1e7ef9.png',
+	codeText: '(cny11)'
+}, {
+	imgUrl: '//s.plurk.com/aca3bc8671fe90fd3001f10b53b682c3.png',
+	codeText: '(cny12)'
+}];
 
 function appendscript(scriptText, args) {
 	var args = JSON.stringify(args);
