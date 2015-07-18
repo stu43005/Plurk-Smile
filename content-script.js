@@ -171,6 +171,7 @@ var hidden_smile = [{
 	minkarma: 50
 }, {
 	imgUrl: [
+		'//s.plurk.com/c192cbee6abf851dd38e558aeffed983.png',
 		'//s.plurk.com/4bb238c42f2777cb81f7cda96e93c7ec.png',
 		'//s.plurk.com/b3204efff2b1d44580f045b71fb8eb6c.png',
 		'//s.plurk.com/f60fb06a6d463cc147c0db1387b79010.png',
