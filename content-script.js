@@ -171,6 +171,16 @@ var hidden_smile = [{
 	minkarma: 50
 }, {
 	imgUrl: [
+		'//s.plurk.com/dde5171bb9139e692053f9ac66cbd564.png',
+		'//s.plurk.com/e7e1ede2d97726bf418a3abf9064869c.png',
+		'//s.plurk.com/c3e6d94310590416f656079db8ded155.png',
+		'//s.plurk.com/8329e14c55b7176a1030bf2be1c734dd.png',
+		'//s.plurk.com/ac7f20875fca82628e66933742ff5c36.png',
+		'//s.plurk.com/7c9a7af9caf0bcbadc74ec87400eb66d.png'
+	],
+	codeText: '(dice)'
+}, {
+	imgUrl: [
 		'//s.plurk.com/c192cbee6abf851dd38e558aeffed983.png',
 		'//s.plurk.com/4bb238c42f2777cb81f7cda96e93c7ec.png',
 		'//s.plurk.com/b3204efff2b1d44580f045b71fb8eb6c.png',
@@ -179,7 +189,7 @@ var hidden_smile = [{
 		'//s.plurk.com/eb68c526d01ef743981c64035e0f3b25.png',
 		'//s.plurk.com/e11a2056ff76f0c6c2eca2ad67df5710.png'
 	],
-	codeText: '(dice)'
+	codeText: '(dice2)'
 }, {
 	imgUrl: [
 		'//s.plurk.com/5b70cbfb6382f1b646f39a3f86d49a1e.png',
@@ -189,6 +199,17 @@ var hidden_smile = [{
 		'//s.plurk.com/8bf17cffc06365c74ee6c6fc0e7980d5.png'
 	],
 	codeText: '(bobei)'
+}, {
+	imgUrl: [
+		'//s.plurk.com/469ccf8828b6eb697bbc55b35ed84202.png', // 大吉
+		'//s.plurk.com/a6f7de6aae635f616b67505261bc5291.png', // 中吉
+		'//s.plurk.com/3f1a1cc77b0a248ce7352509645efa87.png', // 小吉
+		'//s.plurk.com/ed13a8c77dc92dd28996680c13f2fd92.png', // 吉
+		'//s.plurk.com/a3e3b6789eff8173ac192af1ed3f243a.png', // 凶
+		'//s.plurk.com/c12ee0dbd02bf5329682919b39ebdeb3.png', // 小凶
+		'//s.plurk.com/bfe98f4effe412f4e5c9199cc27f6888.png', // 大凶
+	],
+	codeText: '(lot)'
 }];
 var festival_smile = [{
 	text: xmas_text
