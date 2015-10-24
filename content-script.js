@@ -210,6 +210,12 @@ var hidden_smile = [{
 		'//s.plurk.com/bfe98f4effe412f4e5c9199cc27f6888.png', // 大凶
 	],
 	codeText: '(lot)'
+}, {
+	imgUrl: '//s.plurk.com/4f6d07ef7b24d6594e00b3c8f525f5d1.gif',
+	codeText: '(rainbow)' // or, '(pride)', '(lgbt)'
+}, {
+	imgUrl: '//s.plurk.com/fd8be98eaec4706cb825a7009fc8bc3d.gif',
+	codeText: '(gay)'
 }];
 var festival_smile = [{
 	text: xmas_text
@@ -414,13 +420,6 @@ function show_smile_list(sel, smile_list, num, rows) {
 			$html.find("tr:last").append($("<td/>").html($a));
 		} else if (smile_list[i].imgUrl) {
 			var $img = $("<img/>").attr("src", getDefaultImgUrl(smile_list[i].imgUrl)).attr("title", smile_list[i].codeText ? smile_list[i].codeText : getDefaultImgUrl(smile_list[i].imgUrl));
-			if (smile_list[i].width) $img.css("width", smile_list[i].width + "px");
-			if (smile_list[i].height) $img.css("height", smile_list[i].height + "px");
-			if (smile_list[i].max_width) $img.css("max-width", smile_list[i].max_width + "px").data("max-width", smile_list[i].max_width + "px").hover(function() {
-				$(this).css("max-width", "none");
-			}, function() {
-				$(this).css("max-width", $(this).data("max-width"));
-			});
 			if (smile_list[i].imgUrl instanceof Array) {
 				(function($img, imgUrl) {
 					var timer, i = 0;
@@ -434,7 +433,6 @@ function show_smile_list(sel, smile_list, num, rows) {
 					});
 				})($img, smile_list[i].imgUrl);
 			}
-			//var $a = $("<a/>").attr("href", "#").addClass("a_emoticon").addClass("smile_ext_a").attr("title", smile_list[i].codeText ? smile_list[i].codeText : smile_list[i].imgUrl).html($img);
 			$html.find("tr:last").append($("<td/>").addClass("enabled").html($img));
 		}
 		n++;
